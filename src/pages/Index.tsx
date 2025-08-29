@@ -1,13 +1,35 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { useState } from 'react';
+import { Layout } from '@/components/Layout';
+import { HomePage } from '@/components/HomePage';
+import { ServiceNavigator } from '@/components/ServiceNavigator';
+import { ScamChecker } from '@/components/ScamChecker';
+import { ScamHeatmap } from '@/components/ScamHeatmap';
+import { DigitalCoach } from '@/components/DigitalCoach';
 
 const Index = () => {
+  const [activeTab, setActiveTab] = useState('home');
+
+  const renderContent = () => {
+    switch (activeTab) {
+      case 'home':
+        return <HomePage onNavigate={setActiveTab} />;
+      case 'navigator':
+        return <ServiceNavigator />;
+      case 'scam-checker':
+        return <ScamChecker />;
+      case 'scam-map':
+        return <ScamHeatmap />;
+      case 'coach':
+        return <DigitalCoach />;
+      default:
+        return <HomePage onNavigate={setActiveTab} />;
+    }
+  };
+
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <Layout activeTab={activeTab} onTabChange={setActiveTab}>
+      {renderContent()}
+    </Layout>
   );
 };
 
