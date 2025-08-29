@@ -23,9 +23,15 @@ export const Layout = ({ children, activeTab, onTabChange }: LayoutProps) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-secondary to-background">
+    <div className="min-h-screen bg-gradient-to-br from-background via-secondary to-primary/5 relative overflow-hidden">
+      {/* Animated Background Elements */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute -top-20 -right-20 w-96 h-96 bg-gradient-to-br from-primary/20 to-accent/20 rounded-full blur-3xl animate-float"></div>
+        <div className="absolute top-1/2 -left-20 w-80 h-80 bg-gradient-to-br from-accent/15 to-primary/15 rounded-full blur-3xl animate-float" style={{ animationDelay: '3s' }}></div>
+      </div>
+      
       {/* Header */}
-      <header className="bg-primary shadow-lg border-b border-primary/20">
+      <header className="bg-gradient-to-r from-primary via-primary to-accent shadow-xl border-b border-primary/30 backdrop-blur-sm relative z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
@@ -46,15 +52,15 @@ export const Layout = ({ children, activeTab, onTabChange }: LayoutProps) => {
               {tabs.map((tab) => {
                 const Icon = tab.icon;
                 return (
-                  <Button
+                    <Button
                     key={tab.id}
                     variant={activeTab === tab.id ? "secondary" : "ghost"}
                     onClick={() => onTabChange(tab.id)}
                     className={cn(
-                      "flex items-center space-x-2 px-3 py-2 rounded-md text-sm font-medium transition-all duration-200",
+                      "flex items-center space-x-2 px-4 py-2 rounded-xl text-sm font-medium transition-all duration-300 transform hover:scale-105",
                       activeTab === tab.id
-                        ? "bg-secondary text-secondary-foreground shadow-md"
-                        : "text-primary-foreground hover:bg-primary-foreground/10"
+                        ? "bg-white/90 text-primary shadow-lg backdrop-blur-sm animate-pulse-glow"
+                        : "text-white hover:bg-white/20 hover:shadow-lg"
                     )}
                   >
                     <Icon className="h-4 w-4" />

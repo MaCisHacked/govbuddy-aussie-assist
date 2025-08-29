@@ -8,49 +8,53 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 210 11% 15%;
+    --background: 245 100% 99%;
+    --foreground: 220 15% 10%;
 
     --card: 0 0% 100%;
-    --card-foreground: 210 11% 15%;
+    --card-foreground: 220 15% 10%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 210 11% 15%;
+    --popover-foreground: 220 15% 10%;
 
-    /* Australian Government Blue */
-    --primary: 214 100% 27%;
+    /* Vibrant Primary - Electric Blue */
+    --primary: 200 100% 50%;
     --primary-foreground: 0 0% 100%;
+    --primary-glow: 200 100% 70%;
 
-    /* Light government blue */
-    --secondary: 214 100% 97%;
-    --secondary-foreground: 214 100% 27%;
+    /* Fresh Secondary - Mint Green */
+    --secondary: 160 100% 96%;
+    --secondary-foreground: 160 100% 25%;
 
-    --muted: 210 40% 96%;
-    --muted-foreground: 210 11% 46%;
+    --muted: 200 20% 96%;
+    --muted-foreground: 200 15% 46%;
 
-    /* Accent for highlights */
-    --accent: 43 96% 56%;
-    --accent-foreground: 210 11% 15%;
+    /* Vibrant Accent - Electric Purple */
+    --accent: 280 100% 65%;
+    --accent-foreground: 0 0% 100%;
 
-    /* Warning/Alert colors */
-    --destructive: 0 84% 60%;
+    /* Enhanced Alert Colors */
+    --destructive: 0 90% 65%;
     --destructive-foreground: 0 0% 100%;
-    --warning: 38 92% 50%;
+    --warning: 45 100% 60%;
     --warning-foreground: 0 0% 100%;
-    --success: 142 71% 45%;
+    --success: 150 80% 50%;
     --success-foreground: 0 0% 100%;
 
-    --border: 214 32% 91%;
-    --input: 214 32% 91%;
-    --ring: 214 100% 27%;
+    --border: 200 30% 90%;
+    --input: 200 30% 95%;
+    --ring: 200 100% 50%;
 
-    /* Government gradient */
-    --gradient-primary: linear-gradient(135deg, hsl(214 100% 27%), hsl(214 100% 35%));
-    --gradient-secondary: linear-gradient(135deg, hsl(214 100% 97%), hsl(0 0% 100%));
+    /* Dynamic Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(200 100% 50%), hsl(280 100% 65%));
+    --gradient-secondary: linear-gradient(135deg, hsl(160 100% 96%), hsl(200 100% 98%));
+    --gradient-accent: linear-gradient(45deg, hsl(280 100% 65%), hsl(320 100% 70%));
+    --gradient-glow: radial-gradient(circle at center, hsl(200 100% 70% / 0.3), transparent 70%);
     
-    /* Shadows */
-    --shadow-government: 0 4px 12px hsl(214 100% 27% / 0.15);
-    --shadow-card: 0 2px 8px hsl(214 32% 20% / 0.08);
+    /* Enhanced Shadows */
+    --shadow-glow: 0 0 30px hsl(200 100% 50% / 0.3);
+    --shadow-card: 0 8px 25px hsl(200 20% 20% / 0.08);
+    --shadow-interactive: 0 15px 35px hsl(200 100% 50% / 0.15);
 
     --radius: 0.5rem;
 
