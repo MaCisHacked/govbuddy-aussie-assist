@@ -1,8 +1,9 @@
-
-<p align="left">
-  <img src="https://github.com/MaCisHacked/govbuddy-aussie-assist/blob/main/src/assets/coala-logo2.jpg" />
+<p>
+  <img src="https://github.com/MaCisHacked/govbuddy-aussie-assist/blob/main/src/assets/coala-logo2.jpg" alt="Coala Logo" width="150" align ="center"/>
 </p>
-# Coala — Australia’s Smart Government Companion
+
+
+## Coala — Australia’s Smart Government Companion
 
 **Find services. Claim benefits. Stay safe online.**  
 Coala helps Australians navigate government programs and datasets in plain English — with **clickable source links** so you can verify everything yourself.
