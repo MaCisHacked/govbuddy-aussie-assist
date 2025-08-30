@@ -11,25 +11,25 @@ export const HomePage = ({ onNavigate }: HomePageProps) => {
   const features = [
     {
       icon: Compass,
-      title: "Service Navigator",
-      description: "Ask questions in plain English about government services. Get step-by-step guidance with official links.",
+      title: "🧭 Service Navigator",
+      description: "Ask me anything about Aussie government services, mate! I'll guide you through it step-by-step with official links.",
       example: "How do I apply for rent assistance?",
       color: "bg-primary",
       tab: "navigator"
     },
     {
       icon: Shield,
-      title: "Scam & Phishing Detector",
-      description: "Paste suspicious emails, SMS, or URLs. Get instant risk assessment and fraud detection.",
-      example: "Check if that government email is legitimate",
+      title: "🛡️ Scam Detector",
+      description: "Don't get caught out! Paste any suss emails, texts, or websites and I'll check if they're dodgy.",
+      example: "Is this government email legit?",
       color: "bg-warning",
       tab: "scam-checker"
     },
     {
       icon: MapPin,
-      title: "Scam Heatmap",
-      description: "View interactive maps showing scam reports and losses by suburb across Australia.",
-      example: "See scam hotspots in your area",
+      title: "🗺️ Scam Heatmap",
+      description: "Check out where the scammers are most active across Australia! See scam hotspots in your neck of the woods.",
+      example: "Show me scam activity near me",
       color: "bg-destructive",
       tab: "scam-map"
     }
@@ -62,11 +62,11 @@ export const HomePage = ({ onNavigate }: HomePageProps) => {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent leading-tight">
-            Welcome to GovBuddy
+            G'day! Meet Coala 🐨
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            Your intelligent AI companion for navigating Australian government services, 
-            protecting against scams, and empowering your digital journey
+            Your friendly Aussie AI mate for navigating government services, 
+            spotting dodgy scams, and keeping you safe online!
           </p>
         </div>
         
@@ -113,10 +113,10 @@ export const HomePage = ({ onNavigate }: HomePageProps) => {
       <div className="space-y-12">
         <div className="text-center animate-slide-up" style={{ animationDelay: '0.9s' }}>
           <h2 className="text-4xl font-bold bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent mb-6">
-            How GovBuddy Empowers You
+            How Coala Helps You Out
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Three powerful AI-driven tools designed to simplify government services and protect your digital life
+            Three bonzer AI tools designed to make government services easy as and keep you safe from scammers
           </p>
         </div>
 
@@ -229,8 +229,8 @@ export const HomePage = ({ onNavigate }: HomePageProps) => {
             Export Your Results
           </CardTitle>
           <CardDescription className="text-lg leading-relaxed">
-            Generate a comprehensive PDF "GovBuddy Report" with your personalized guidance, 
-            safety recommendations, and official source links
+            Generate a comprehensive PDF "Coala Report" with your personalized guidance, 
+            safety recommendations, and official source links - fair dinkum helpful!
           </CardDescription>
         </CardHeader>
       </Card>

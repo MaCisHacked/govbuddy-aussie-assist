@@ -3,7 +3,7 @@ import { Compass, Shield, MapPin, GraduationCap, Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { cn } from '@/lib/utils';
-import govbuddyLogo from '@/assets/govbuddy-logo.jpg';
+import coalaLogo from '@/assets/coala-logo.jpg';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -37,13 +37,13 @@ export const Layout = ({ children, activeTab, onTabChange }: LayoutProps) => {
             {/* Logo */}
             <div className="flex items-center space-x-3">
               <img 
-                src={govbuddyLogo} 
-                alt="GovBuddy Logo" 
-                className="h-8 w-auto"
+                src={coalaLogo} 
+                alt="Coala - Your Aussie AI Assistant" 
+                className="h-10 w-10 rounded-full"
               />
               <div>
-                <h1 className="text-xl font-bold text-primary-foreground">GovBuddy</h1>
-                <p className="text-xs text-primary-foreground/80">Your Government Services Assistant</p>
+                <h1 className="text-xl font-bold text-primary-foreground">🐨 Coala</h1>
+                <p className="text-xs text-primary-foreground/80">Your Aussie AI Assistant</p>
               </div>
             </div>
 
@@ -128,7 +128,7 @@ export const Layout = ({ children, activeTab, onTabChange }: LayoutProps) => {
               <strong>Disclaimer:</strong> This information is for guidance only. Always verify with official government sources.
             </p>
             <p>
-              Built for GovHack 2025 • Not an official government website
+              Built for GovHack 2025 by Coala 🐨 • Not an official government website
             </p>
           </div>
         </div>

@@ -17,20 +17,20 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 220 15% 10%;
 
-    /* Vibrant Primary - Electric Blue */
-    --primary: 200 100% 50%;
+    /* Aussie Primary - Eucalyptus Green */
+    --primary: 160 60% 45%;
     --primary-foreground: 0 0% 100%;
-    --primary-glow: 200 100% 70%;
+    --primary-glow: 160 60% 65%;
 
-    /* Fresh Secondary - Mint Green */
-    --secondary: 160 100% 96%;
-    --secondary-foreground: 160 100% 25%;
+    /* Golden Wattle Secondary */
+    --secondary: 45 100% 95%;
+    --secondary-foreground: 45 100% 20%;
 
-    --muted: 200 20% 96%;
-    --muted-foreground: 200 15% 46%;
+    --muted: 160 20% 96%;
+    --muted-foreground: 160 25% 46%;
 
-    /* Vibrant Accent - Electric Purple */
-    --accent: 280 100% 65%;
+    /* Aussie Sunset Accent - Warm Orange */
+    --accent: 25 100% 60%;
     --accent-foreground: 0 0% 100%;
 
     /* Enhanced Alert Colors */
@@ -45,16 +45,16 @@ All colors MUST be HSL.
     --input: 200 30% 95%;
     --ring: 200 100% 50%;
 
-    /* Dynamic Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(200 100% 50%), hsl(280 100% 65%));
-    --gradient-secondary: linear-gradient(135deg, hsl(160 100% 96%), hsl(200 100% 98%));
-    --gradient-accent: linear-gradient(45deg, hsl(280 100% 65%), hsl(320 100% 70%));
-    --gradient-glow: radial-gradient(circle at center, hsl(200 100% 70% / 0.3), transparent 70%);
+    /* Aussie Dynamic Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(160 60% 45%), hsl(25 100% 60%));
+    --gradient-secondary: linear-gradient(135deg, hsl(45 100% 95%), hsl(160 40% 98%));
+    --gradient-accent: linear-gradient(45deg, hsl(25 100% 60%), hsl(35 100% 70%));
+    --gradient-glow: radial-gradient(circle at center, hsl(160 60% 65% / 0.3), transparent 70%);
     
-    /* Enhanced Shadows */
-    --shadow-glow: 0 0 30px hsl(200 100% 50% / 0.3);
-    --shadow-card: 0 8px 25px hsl(200 20% 20% / 0.08);
-    --shadow-interactive: 0 15px 35px hsl(200 100% 50% / 0.15);
+    /* Aussie Enhanced Shadows */
+    --shadow-glow: 0 0 30px hsl(160 60% 45% / 0.3);
+    --shadow-card: 0 8px 25px hsl(160 20% 20% / 0.08);
+    --shadow-interactive: 0 15px 35px hsl(160 60% 45% / 0.15);
 
     --radius: 0.5rem;
 
