@@ -46,15 +46,15 @@ All colors MUST be HSL.
     --ring: 200 100% 50%;
 
     /* Aussie Dynamic Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(160 60% 45%), hsl(25 100% 60%));
+    --gradient-primary: linear-gradient(135deg, hsl(214, 76%, 40%), hsl(0, 75%, 45%));
     --gradient-secondary: linear-gradient(135deg, hsl(45 100% 95%), hsl(160 40% 98%));
-    --gradient-accent: linear-gradient(45deg, hsl(25 100% 60%), hsl(35 100% 70%));
-    --gradient-glow: radial-gradient(circle at center, hsl(160 60% 65% / 0.3), transparent 70%);
+    --gradient-accent: linear-gradient(45deg, hsl(0, 2%, 8%), hsl(4, 100%, 38%));
+    --gradient-glow: radial-gradient(circle at center, hsla(249, 91%, 48%, 0.3), transparent 70%);
     
     /* Aussie Enhanced Shadows */
-    --shadow-glow: 0 0 30px hsl(160 60% 45% / 0.3);
-    --shadow-card: 0 8px 25px hsl(160 20% 20% / 0.08);
-    --shadow-interactive: 0 15px 35px hsl(160 60% 45% / 0.15);
+    --shadow-glow: 0 0 30px hsla(231, 68%, 46%, 0.3);
+    --shadow-card: 0 8px 25px hsla(9, 91%, 29%, 0.08);
+    --shadow-interactive: 0 15px 35px hsla(249, 99%, 44%, 0.15);
 
     --radius: 0.5rem;
 
