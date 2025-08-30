@@ -31,7 +31,8 @@ export const Layout = ({ children, activeTab, onTabChange }: LayoutProps) => {
       </div>
       
       {/* Header */}
-      <header className="bg-gradient-to-r from-primary via-primary to-accent shadow-xl border-b border-primary/30 backdrop-blur-sm relative z-10">
+     <header className="text-white bg-brand-gradient shadow-xl border-b border-white/20 backdrop-blur-sm relative z-10">
+
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             {/* Logo */}

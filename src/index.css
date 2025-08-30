@@ -2,124 +2,95 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
-
+/* ---------- Design tokens (HSL) ---------- */
 @layer base {
   :root {
-    --background: 245 100% 99%;
-    --foreground: 220 15% 10%;
+    --background: 0 0% 100%;
+    --foreground: 220 15% 12%;
 
     --card: 0 0% 100%;
-    --card-foreground: 220 15% 10%;
+    --card-foreground: 220 15% 12%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 220 15% 10%;
+    --popover-foreground: 220 15% 12%;
 
-    /* Aussie Primary - Eucalyptus Green */
-    --primary: 160 60% 45%;
-    --primary-foreground: 0 0% 100%;
-    --primary-glow: 160 60% 65%;
+    /* Flag Navy Blue (#012169 approx) */
+    --primary: 229 22% 39%;
+    --primary-foreground:239, 97%, 15%;
 
-    /* Golden Wattle Secondary */
-    --secondary: 45 100% 95%;
-    --secondary-foreground: 45 100% 20%;
+    /* White */
+    --secondary:  239, 97%, 15%;
+    --secondary-foreground: 220 100% 20%;
 
-    --muted: 160 20% 96%;
-    --muted-foreground: 160 25% 46%;
-
-    /* Aussie Sunset Accent - Warm Orange */
-    --accent: 25 100% 60%;
+    /* Flag Red (#C8102E approx) */
+    --accent:239, 97%, 15%;
     --accent-foreground: 0 0% 100%;
 
-    /* Enhanced Alert Colors */
-    --destructive: 0 90% 65%;
+    --muted: 220 20% 96%;
+    --muted-foreground: 220 10% 45%;
+
+    --destructive: 0 72% 45%;
     --destructive-foreground: 0 0% 100%;
-    --warning: 45 100% 60%;
-    --warning-foreground: 0 0% 100%;
-    --success: 150 80% 50%;
-    --success-foreground: 0 0% 100%;
 
-    --border: 200 30% 90%;
-    --input: 200 30% 95%;
-    --ring: 200 100% 50%;
+    --border: 220 25% 88%;
+    --input: 220 25% 96%;
+    --ring: 220 100% 45%;
 
-    /* Aussie Dynamic Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(214, 76%, 40%), hsl(0, 75%, 45%));
-    --gradient-secondary: linear-gradient(135deg, hsl(45 100% 95%), hsl(160 40% 98%));
-    --gradient-accent: linear-gradient(45deg, hsl(0, 2%, 8%), hsl(4, 100%, 38%));
-    --gradient-glow: radial-gradient(circle at center, hsla(249, 91%, 48%, 0.3), transparent 70%);
-    
-    /* Aussie Enhanced Shadows */
-    --shadow-glow: 0 0 30px hsla(231, 68%, 46%, 0.3);
-    --shadow-card: 0 8px 25px hsla(9, 91%, 29%, 0.08);
-    --shadow-interactive: 0 15px 35px hsla(249, 99%, 44%, 0.15);
-
-    --radius: 0.5rem;
-
-    --sidebar-background: 0 0% 98%;
-
-    --sidebar-foreground: 240 5.3% 26.1%;
-
-    --sidebar-primary: 240 5.9% 10%;
-
-    --sidebar-primary-foreground: 0 0% 98%;
-
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    /* Blue → White → Red gradient */
+    --gradient-primary: linear-gradient(
+      90deg,
+      hsl(255, 3%, 71%) 0%,
+      hsl(0, 3%, 71%) 50%,
+      hsl(239, 97%, 15%) 100%
+    );
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    --background: 220 40% 6%;
+    --foreground: 0 0% 98%;
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    --card: 220 40% 8%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 220 40% 8%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 220 100% 65%;
+    --primary-foreground: 220 40% 8%;
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 220 24% 14%;
+    --secondary-foreground: 0 0% 98%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 220 24% 14%;
+    --muted-foreground: 220 12% 70%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 355 84% 55%;
+    --accent-foreground: 0 0% 98%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 72% 40%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --border: 220 24% 18%;
+    --input: 220 24% 18%;
+    --ring: 220 100% 65%;
+  }
+
+  * { @apply border-border; }
+  body { @apply bg-background text-foreground; }
+}
+
+
+/* ---------- Components ---------- */
+@layer components {
+  .btn {
+    @apply inline-flex items-center gap-2 rounded-lg px-3 py-1.5 text-sm
+           font-medium bg-primary text-primary-foreground hover:opacity-90;
   }
 }
 
-@layer base {
-  * {
-    @apply border-border;
-  }
 
-  body {
-    @apply bg-background text-foreground;
-  }
+/* ---------- Utilities ---------- */
+@layer utilities {
+  .bg-brand-gradient { background-image: var(--gradient-primary); }
 }
+
