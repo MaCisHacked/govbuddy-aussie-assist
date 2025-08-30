@@ -1,7 +1,8 @@
-import { Shield, Compass, MapPin, Download, CheckCircle, AlertTriangle, TrendingUp, ArrowRight, Brain, Sparkles } from 'lucide-react';
+import { Shield, Compass, MapPin, Download, CheckCircle, AlertTriangle, TrendingUp, ArrowRight, Brain } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
+import coalaAstronaut from '@/assets/coala-astronaut.png';
 
 interface HomePageProps {
   onNavigate: (tab: string) => void;
@@ -55,8 +56,12 @@ export const HomePage = ({ onNavigate }: HomePageProps) => {
           <div className="inline-flex items-center space-x-4 mb-6">
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-primary to-accent rounded-2xl blur-lg animate-pulse-glow"></div>
-              <div className="relative p-4 bg-gradient-to-br from-primary to-accent rounded-2xl shadow-xl">
-                <span className="text-4xl animate-float">🐨</span>
+              <div className="relative p-2 bg-gradient-to-br from-primary/10 to-accent/10 rounded-2xl shadow-xl backdrop-blur-sm">
+                <img 
+                  src={coalaAstronaut} 
+                  alt="Coala the Space Koala" 
+                  className="h-16 w-16 animate-float"
+                />
               </div>
             </div>
           </div>
