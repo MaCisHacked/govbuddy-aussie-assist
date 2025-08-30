@@ -1,5 +1,5 @@
 
-<p align="center">
+<p align="left">
   <img src="https://github.com/MaCisHacked/govbuddy-aussie-assist/blob/main/src/assets/coala-logo2.jpg" />
 </p>
 # Coala — Australia’s Smart Government Companion
