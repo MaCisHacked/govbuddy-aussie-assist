@@ -6,14 +6,18 @@
 ## Coala — Your Smart Government Companion
 
 **Find services. Claim benefits. Stay safe online.**  
-Coala helps Australians navigate government programs and datasets in plain English — with **clickable source links** so you can verify everything yourself.
+
+Coala is built with official Australian government data from trusted sources including the ABS, Services Australia, and Scamwatch. This powerful AI solution delivers precise assistance with Medicare, Centrelink, and ATO services while providing advanced scammer detection capabilities. Coala generates comprehensive PDF reports featuring personalized guidance, safety recommendations, and official source links - giving you professional documentation for all your government service needs. Experience the difference of an AI that truly understands Australian systems and processes. Coala combines government services expertise with cybersecurity protection in one reliable platform. Discover the Australian AI advantage with Coala today.
 
 ## ✨ What Coala does (MVP)
-- **Service & Dataset Finder** — Search across open government datasets (e.g., data.gov.au) and jump straight to CSV/JSON or the publisher page.
-- **Scam & Phishing Check (first pass)** — Paste a URL/SMS/email and get risk signals + official guidance (Scamwatch, ACMA) so you don’t get burned.
-- **Ask Coala (guided Q&A)** — Ask questions like “youth allowance”, “first home buyer” or “HECS indexation”. Coala returns a short, referenced answer with sources you can click.
+Coala is an AI-powered assistant that helps Australians:
+	
+1	Navigate government services, rebates, grants, and policies.  
+2	Personalise recommendations based on life situations (student, job seeker, parent, retiree, etc.).  
+3	Stay Safe Online by detecting scams, phishing, and fake government portals.  
+Educate users on digital confidence and safer participation.
 
-> Roadmap: VIC-specific data toggle (DataVic), Scam heatmap, ABS Data API enrichment, and explainers for common life events (student, job seeker, carer, retiree, etc.).
+
 
 ## 🛠️ Tech Stack
 - **Vite + React + TypeScript**
