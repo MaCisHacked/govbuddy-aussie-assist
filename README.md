@@ -3,7 +3,7 @@
 </p>
 
 
-## Coala — Australia’s Smart Government Companion
+## Coala — Your Smart Government Companion
 
 **Find services. Claim benefits. Stay safe online.**  
 Coala helps Australians navigate government programs and datasets in plain English — with **clickable source links** so you can verify everything yourself.
