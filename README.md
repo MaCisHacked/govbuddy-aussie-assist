@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="src/assets/coala-logo2.png" alt="Coala Logo" width="400" />
+  <img src="[src/assets/coala-logo2.png" alt="Coala Logo" width="400](https://github.com/MaCisHacked/govbuddy-aussie-assist/blob/main/src/assets/coala-logo2.jpg)" />
 </p>
 # Coala — Australia’s Smart Government Companion
 
