@@ -1,22 +1,20 @@
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react-swc";
-import path from "path";
-import { componentTagger } from "-tagger";
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
-export default defineConfig(({ mode }) => ({
+export default defineConfig(({ command }) => ({
+
+  base: command === 'build' ? '/govbuddy-aussie-assist/' : '/',
+  plugins: [react()],
   server: {
-    host: "::",
+    host: true,
     port: 8080,
+    proxy: {
+      '/ckan': {
+        target: 'https://data.gov.au/data/api/3/action',
+        changeOrigin: true,
+        rewrite: p => p.replace(/^\/ckan/, '')
+      }
+    }
   },
-  plugins: [
-    react(),
-    mode === 'development' &&
-    componentTagger(),
-  ].filter(Boolean),
-  resolve: {
-    alias: {
-      "@": path.resolve(__dirname, "./src"),
-    },
-  },
-}));
+  resolve: { alias: { '@': '/src' } }
+}))
