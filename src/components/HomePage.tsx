@@ -1,4 +1,4 @@
-import { Shield, Compass, MapPin, Download, CheckCircle, AlertTriangle, TrendingUp, ArrowRight, Brain } from 'lucide-react';
+import { Shield, Compass, MapPin, Download, CheckCircle, AlertTriangle, TrendingUp, ArrowRight, Brain, Sparkles } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
@@ -56,19 +56,22 @@ export const HomePage = ({ onNavigate }: HomePageProps) => {
           <div className="inline-flex items-center space-x-4 mb-6">
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-primary to-accent rounded-2xl blur-lg animate-pulse-glow"></div>
-              <div className="relative p-2 bg-gradient-to-br from-primary/10 to-accent/10 rounded-2xl shadow-xl backdrop-blur-sm">
-                <img 
-                  src={coalaAstronaut} 
-                  alt="Coala the Space Koala" 
-                  className="h-16 w-16 animate-float"
-                />
+              <div className="relative p-4 bg-gradient-to-br from-primary to-accent rounded-2xl shadow-xl">
+                <Sparkles className="h-12 w-12 text-white animate-float" />
               </div>
             </div>
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent leading-tight">
-            G'day! Meet Coala 🐨
-          </h1>
+          <div className="flex items-center justify-center gap-6">
+            <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent leading-tight">
+              G'day! Meet Coala
+            </h1>
+            <img 
+              src={coalaAstronaut} 
+              alt="Coala the Space Koala" 
+              className="h-20 w-20 animate-float"
+            />
+          </div>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
             Your friendly Aussie AI mate for navigating government services, 
             spotting dodgy scams, and keeping you safe online!

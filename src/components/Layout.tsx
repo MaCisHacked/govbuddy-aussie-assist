@@ -3,7 +3,7 @@ import { Compass, Shield, MapPin, GraduationCap, Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { cn } from '@/lib/utils';
-import coalaLogo from '@/assets/coala-astronaut.png';
+import coalaLogo from '@/assets/coala-logo.jpg';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -39,10 +39,10 @@ export const Layout = ({ children, activeTab, onTabChange }: LayoutProps) => {
               <img 
                 src={coalaLogo} 
                 alt="Coala - Your Aussie AI Assistant" 
-                className="h-12 w-12 rounded-full animate-float"
+                className="h-8 w-auto"
               />
               <div>
-                <h1 className="text-xl font-bold text-primary-foreground">🐨 Coala</h1>
+                <h1 className="text-xl font-bold text-primary-foreground">Coala</h1>
                 <p className="text-xs text-primary-foreground/80">Your Aussie AI Assistant</p>
               </div>
             </div>
