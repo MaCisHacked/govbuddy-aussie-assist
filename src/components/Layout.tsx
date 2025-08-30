@@ -40,11 +40,11 @@ export const Layout = ({ children, activeTab, onTabChange }: LayoutProps) => {
               <img 
                 src={coalaLogo} 
                 alt="Coala - Your Aussie AI Assistant" 
-                className="h-8 w-auto"
+                className="h-12 w-auto"
               />
               <div>
                 <h1 className="text-xl font-bold text-primary-foreground">Coala</h1>
-                <p className="text-xs text-primary-foreground/80">Your Aussie AI Assistant</p>
+                <p className="text-xs text-primary-foreground/80">Your Aussie GovBuddy</p>
               </div>
             </div>
 

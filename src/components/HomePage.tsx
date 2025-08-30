@@ -3,6 +3,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import coalaAstronaut from '@/assets/coala-astronaut.png';
+import coalaLogo from '@/assets/coala-logo2.jpg';
 
 interface HomePageProps {
   onNavigate: (tab: string) => void;
@@ -57,22 +58,29 @@ export const HomePage = ({ onNavigate }: HomePageProps) => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-primary to-accent rounded-2xl blur-lg animate-pulse-glow"></div>
               <div className="relative p-4 bg-gradient-to-br from-primary to-accent rounded-2xl shadow-xl">
-                <Sparkles className="h-12 w-12 text-white animate-float" />
+                <img 
+  src={coalaAstronaut} 
+  alt="Coala Logo" 
+  className="h-13 w-20 "
+  draggable="false"
+/>
+
               </div>
             </div>
           </div>
           
           <div className="flex items-center justify-center gap-6">
-            <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent leading-tight">
+            <h1 className="text-5xl md:text-7xl font-bold text-white drop-shadow-[0_0_8px_#111827] animate-float  leading-tight">
+            
               G'day! Meet Coala
             </h1>
             <img 
-              src={coalaAstronaut} 
+              src={coalaLogo} 
               alt="Coala the Space Koala" 
               className="h-20 w-20 animate-float"
             />
           </div>
-          <p className="text-xl md:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+          <p className="text-xl md:text-2xl text-white/80 drop-shadow-[0_0_10px_#1e3a8a] max-w-4xl mx-auto leading-relaxed">
             Your friendly Aussie AI mate for navigating government services, 
             spotting dodgy scams, and keeping you safe online!
           </p>
@@ -120,10 +128,10 @@ export const HomePage = ({ onNavigate }: HomePageProps) => {
       {/* Interactive Features Section */}
       <div className="space-y-12">
         <div className="text-center animate-slide-up" style={{ animationDelay: '0.9s' }}>
-          <h2 className="text-4xl font-bold bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent mb-6">
-            How Coala Helps You Out
-          </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+          <h2 className="text-4xl font-bold text-white mb-6">
+  How Coala Helps You Out
+</h2>
+          <p className="text-xl text-muted-foreground text-white/80 max-w-3xl mx-auto leading-relaxed">
             Three bonzer AI tools designed to make government services easy as and keep you safe from scammers
           </p>
         </div>
@@ -234,7 +242,7 @@ export const HomePage = ({ onNavigate }: HomePageProps) => {
             <div className="p-3 bg-gradient-to-br from-success to-primary rounded-xl group-hover:animate-scale-bounce">
               <Download className="h-6 w-6 text-white" />
             </div>
-            Export Your Results
+            📥 Export Your Results
           </CardTitle>
           <CardDescription className="text-lg leading-relaxed">
             Generate a comprehensive PDF "Coala Report" with your personalized guidance, 

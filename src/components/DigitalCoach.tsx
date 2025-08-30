@@ -89,8 +89,8 @@ export const DigitalCoach = () => {
   return (
     <div className="max-w-4xl mx-auto space-y-6">
       <div className="text-center space-y-4">
-        <h2 className="text-3xl font-bold text-primary">Digital Confidence Coach</h2>
-        <p className="text-lg text-muted-foreground">
+        <h2 className="text-3xl  text-white/80 font-bold text-primary">Digital Confidence Coach</h2>
+        <p className="text-lg  text-white/80 text-muted-foreground">
           Build your scam detection skills with interactive quizzes and personalized tips
         </p>
       </div>

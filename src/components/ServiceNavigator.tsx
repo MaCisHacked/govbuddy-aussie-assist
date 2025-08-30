@@ -64,8 +64,8 @@ export const ServiceNavigator = () => {
   return (
     <div className="max-w-4xl mx-auto space-y-6">
       <div className="text-center space-y-4">
-        <h2 className="text-3xl font-bold text-primary">Service Navigator</h2>
-        <p className="text-lg text-muted-foreground">
+        <h2 className="text-3xl  text-white/80 font-bold text-primary">Service Navigator</h2>
+        <p className="text-lg  text-white/80 text-muted-foreground">
           Ask questions about Australian government services in plain English
         </p>
       </div>

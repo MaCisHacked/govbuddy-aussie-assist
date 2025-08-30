@@ -1,3 +1,7 @@
+
+<p align="center">
+  <img src="src/assets/coala-logo2.png" alt="Coala Logo" width="400" />
+</p>
 # Coala — Australia’s Smart Government Companion
 
 **Find services. Claim benefits. Stay safe online.**  

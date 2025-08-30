@@ -4,9 +4,13 @@
 
 /* ---------- Design tokens (HSL) ---------- */
 @layer base {
+  
+  
+  
+
   :root {
     --background: 0 0% 100%;
-    --foreground: 220 15% 12%;
+    --foreground: 239, 97%, 15%%;
 
     --card: 0 0% 100%;
     --card-foreground: 220 15% 12%;
@@ -16,7 +20,7 @@
 
     /* Flag Navy Blue (#012169 approx) */
     --primary: 229 22% 39%;
-    --primary-foreground:239, 97%, 15%;
+    --primary-foreground: 0 0% 100%;
 
     /* White */
     --secondary:  239, 97%, 15%;
@@ -39,11 +43,22 @@
     /* Blue → White → Red gradient */
     --gradient-primary: linear-gradient(
       90deg,
-      hsl(255, 3%, 71%) 0%,
-      hsl(0, 3%, 71%) 50%,
-      hsl(239, 97%, 15%) 100%
+      hsl(240, 44%, 12%) 0%,
+      hsl(239, 97%, 15%) 50%,
+      hsl(240, 48%, 5%) 100%
     );
   }
+/* Scoped white text for hero sections only */
+.hero-section {
+  --foreground: 0 0% 100%;            /* White titles */
+  --muted-foreground: 0 0% 85%;       /* Softer white subtitles */
+}
+
+/* Keep cards and other light sections untouched */
+.card, .light-section {
+  --foreground: 220 15% 12%;          /* Your default dark heading color */
+  --muted-foreground: 220 10% 35%;    /* Default muted grey */
+}
 
   .dark {
     --background: 220 40% 6%;

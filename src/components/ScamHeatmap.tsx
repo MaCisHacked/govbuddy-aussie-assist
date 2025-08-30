@@ -45,8 +45,8 @@ export const ScamHeatmap = () => {
   return (
     <div className="max-w-6xl mx-auto space-y-6">
       <div className="text-center space-y-4">
-        <h2 className="text-3xl font-bold text-primary">Scam Heatmap</h2>
-        <p className="text-lg text-muted-foreground">
+        <h2 className="text-3xl  text-white/80 font-bold text-primary">Scam Heatmap</h2>
+        <p className="text-lg  text-white/80 text-muted-foreground">
           Interactive map showing scam reports and financial losses by location across Australia
         </p>
       </div>
@@ -213,13 +213,14 @@ export const ScamHeatmap = () => {
       {/* Warning Card */}
       <Card className="bg-warning/10 border-warning">
         <CardHeader>
-          <CardTitle className="flex items-center gap-2 text-warning">
-            <AlertTriangle className="h-5 w-5" />
-            Important Information
+          <CardTitle className="flex test-white/90 items-center gap-2 text-warning">
+            <AlertTriangle className="text-white h-5 w-5" />
+           <div className='text-white'>Important Information</div>
+            
           </CardTitle>
         </CardHeader>
         <CardContent>
-          <div className="space-y-2 text-sm">
+          <div className="space-y-2 text-white/70 text-sm">
             <p>• Scam data is sourced from official Scamwatch reports and may not represent all incidents</p>
             <p>• Many scams go unreported, so actual numbers may be higher</p>
             <p>• Data is updated monthly and may have a delay</p>
