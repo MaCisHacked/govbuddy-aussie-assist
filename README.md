@@ -12,7 +12,7 @@ Coala is built with official Australian government data from trusted sources inc
 ## ✨ What Coala does (MVP)
 Coala is an AI-powered assistant that helps Australians:
 	
-**1	Navigate government services, rebates, grants, and policies.** 
+*1	Navigate government services, rebates, grants, and policies.*
 **2	Personalise recommendations based on life situations (student, job seeker, parent, retiree, etc.).** 
 **3	Stay Safe Online by detecting scams, phishing, and fake government portals.**  
 Educate users on digital confidence and safer participation.
