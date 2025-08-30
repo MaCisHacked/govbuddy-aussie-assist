@@ -56,7 +56,7 @@ export const HomePage = ({ onNavigate }: HomePageProps) => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-primary to-accent rounded-2xl blur-lg animate-pulse-glow"></div>
               <div className="relative p-4 bg-gradient-to-br from-primary to-accent rounded-2xl shadow-xl">
-                <Sparkles className="h-12 w-12 text-white animate-float" />
+                <span className="text-4xl animate-float">🐨</span>
               </div>
             </div>
           </div>
