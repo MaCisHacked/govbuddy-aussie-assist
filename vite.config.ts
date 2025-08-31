@@ -17,3 +17,5 @@ export default defineConfig(({ command }) => ({
   },
   resolve: { alias: { '@': '/src' } }
 }))
+
+

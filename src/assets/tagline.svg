@@ -1,0 +1,16 @@
+<svg width="600" height="220" viewBox="0 0 600 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Find services. Claim benefits. Stay safe online.">
+  <style>
+    .tagline {
+      font-family: "Inter", "Segoe UI", system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 42px;
+      fill: #4B5563; /* Neutral grey */
+      letter-spacing: 0.5px;
+      text-anchor: middle;
+    }
+  </style>
+  
+  <text class="tagline" x="50%" y="60">Find services.</text>
+  <text class="tagline" x="50%" y="120">Claim benefits.</text>
+  <text class="tagline" x="50%" y="180">Stay safe online.</text>
+</svg>

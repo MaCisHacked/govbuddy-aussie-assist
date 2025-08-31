@@ -1,22 +1,91 @@
-
-<p align="center">
-  <img src="src/assets/coala-logo2.png" alt="Coala Logo" width="400" />
+<p>
+  <img src="https://github.com/MaCisHacked/govbuddy-aussie-assist/blob/main/src/assets/coala-logo2.jpg" alt="Coala Logo" width="150" align ="center"/>
 </p>
-# Coala — Australia’s Smart Government Companion
+
+
+## Meet Coala — Australia’s Smart Government Companion
 
 **Find services. Claim benefits. Stay safe online.**  
-Coala helps Australians navigate government programs and datasets in plain English — with **clickable source links** so you can verify everything yourself.
+
+Coala is a powerful AI-powered assistant built to help Australians navigate through complex government processes, protects against scams, and connects over 300+ open datasets to give personalised, plain-English answers — all backed by official Australian sources.
+
+Unlike generic AI tools, Coala is trained on local systems, meaning:
+✅ Accurate guidance for Australian services
+✅ Real-time scam detection powered by Scamwatch
+✅ Step-by-step navigation of Medicare, Centrelink, and ATO
 
 ## ✨ What Coala does (MVP)
-- **Service & Dataset Finder** — Search across open government datasets (e.g., data.gov.au) and jump straight to CSV/JSON or the publisher page.
-- **Scam & Phishing Check (first pass)** — Paste a URL/SMS/email and get risk signals + official guidance (Scamwatch, ACMA) so you don’t get burned.
-- **Ask Coala (guided Q&A)** — Ask questions like “youth allowance”, “first home buyer” or “HECS indexation”. Coala returns a short, referenced answer with sources you can click.
 
+1.  Connects 300+ Government Datasets (Navigating Australia’s Data Landscape)
+
+Integrates ABS, Services Australia, and Scamwatch data
+
+Converts raw data into personalised, actionable insights
+
+Always cites official sources
+
+2. Protects Australians from Scams (Digital Confidence)
+
+Monitors Scamwatch alerts in real time
+
+AI-driven phishing detection
+
+Visual Scam Heatmaps showing hotspots
+
+3. Simplifies Government Services (Red Tape Navigator)
+
+Walks users through Medicare, Centrelink, and ATO processes
+
+Explains forms and policies in plain English
+
+Gives step-by-step instructions
+
+4. Builds Personal AI Buddies (Community AI Agents)
+
+Australians aren’t all the same. Coala adapts:
+
+Students → HECS, MyGov, rent assistance
+
+Job Seekers → training subsidies, grants
+
+Retirees → superannuation, pension planning
+
+Everyone gets their own AI “agent”, designed for their needs.
+
+5. Generates Professional PDF Reports (AI for Gov Services)
+
+After every session, Coala creates a downloadable PDF:
+
+Your personalised guidance
+
+Scam and safety alerts
+
+Clickable official links
+
+
+🔗 Live Demo & Repo
+
+Live Demo: macishacked.github.io/govbuddy-aussie-assist
+
+GitHub Repo: github.com/MaCisHacked/govbuddy-aussie-assist
 > Roadmap: VIC-specific data toggle (DataVic), Scam heatmap, ABS Data API enrichment, and explainers for common life events (student, job seeker, carer, retiree, etc.).
 
+
 ## 🛠️ Tech Stack
-- **Vite + React + TypeScript**
-- **Tailwind CSS** + **shadcn/ui**
+
+React • Vite • Tailwind • OpenAI API • ABS • Services Australia • Scamwatch
+
+🚀 Vision
+
+Coala isn’t just a prototype — it’s the future of digital government in Australia.
+
+One AI assistant for every citizen
+
+Integrated scam protection and identity safety
+
+Accessible, inclusive, and scalable nationwide
+
+Coala: Turning confusion into clarity, and data into action.
 
 ## 🚀 Quick Start (Local)
 Prereqs: Node 18+ (or Bun), Git.
