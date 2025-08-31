@@ -5,7 +5,7 @@ Meet Coala! — Australia’s Smart Government Companion
 
 **Find services. Claim benefits. Stay safe online.**  
 
-Coala is a powerful AI-powered assistant built to help Australians navigate through complex government processes, protects against scams, and connects over 300+ open datasets to give personalised, plain-English answers — all backed by official  sources.
+Coala is a powerful AI-powered assistant built to help Australians navigate through complex government processes, protect against scams, and connects over 300+ open datasets to give personalised, plain-English answers — all backed by official  sources.
 
 **Unlike generic AI tools, Coala is trained on local systems, meaning:**
 - ✅ Accurate guidance for Australian services
