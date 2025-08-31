@@ -1,14 +1,8 @@
 <p>
-  <img src="https://github.com/MaCisHacked/govbuddy-aussie-assist/blob/main/src/assets/coala-logo2.jpg" alt="Coala Logo" width="150" align ="center"/>
- 
-  <img src="https://github.com/MaCisHacked/govbuddy-aussie-assist/blob/main/src/assets/tagline.svg" 
-       alt="Find services. Claim benefits. Stay safe online." width="250" style="vertical-align:middle;"/>
-
+  <img src="https://github.com/MaCisHacked/govbuddy-aussie-assist/blob/main/src/assets/coala-logo2.jpg" alt="Coala Logo" width="150" align ="left"/>
 </p>
 
-
 ## Meet Coala! — Australia’s Smart Government Companion
-
 **Find services. Claim benefits. Stay safe online.**  
 
 Coala is a powerful AI-powered assistant built to help Australians navigate through complex government processes, protects against scams, and connects over 300+ open datasets to give personalised, plain-English answers — all backed by official Australian sources.
