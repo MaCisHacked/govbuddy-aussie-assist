@@ -1,9 +1,8 @@
 <p>
   <img src="https://github.com/MaCisHacked/govbuddy-aussie-assist/blob/main/src/assets/coala-logo2.jpg" alt="Coala Logo" width="150" align ="center"/>
-<<<<<<< HEAD
+
   <img src="assets/tagline.svg" alt="Tagline" width="400" style="margin-left:20px;vertical-align:middle;"/>
-=======
->>>>>>> 771228e93b4c4c303cd02d53d6c2143352196362
+
 </p>
 
 
