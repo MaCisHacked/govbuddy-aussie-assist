@@ -1,7 +1,8 @@
 <p>
   <img src="https://github.com/MaCisHacked/govbuddy-aussie-assist/blob/main/src/assets/coala-logo2.jpg" alt="Coala Logo" width="150" align ="center"/>
-
-  <img src="assets/tagline.svg" alt="Tagline" width="400" style="margin-left:20px;vertical-align:middle;"/>
+ 
+  <img src="https://github.com/MaCisHacked/govbuddy-aussie-assist/blob/main/src/assets/tagline.svg" 
+       alt="Find services. Claim benefits. Stay safe online." width="250" style="vertical-align:middle;"/>
 
 </p>
 
