@@ -53,9 +53,9 @@ After every session, Coala creates a downloadable PDF:
 
 ## 🔗 Live Demo & Repo
 
-**Live Demo: macishacked.github.io/govbuddy-aussie-assist**
+**Live Demo: https://macishacked.github.io/govbuddy-aussie-assist**
 
-**GitHub Repo: github.com/MaCisHacked/govbuddy-aussie-assist**
+**GitHub Repo: https://github.com/MaCisHacked/govbuddy-aussie-assist**
 
 ## > Roadmap:
 VIC-specific data toggle (DataVic), Scam heatmap, ABS Data API enrichment, and explainers for common life events (student, job seeker, carer, retiree, etc.).
